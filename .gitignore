@@ -1,0 +1,112 @@
+# ─────────────────────────────────────────────────────────────
+#  Python / AI / Agentic AI project – .gitignore
+# ─────────────────────────────────────────────────────────────
+
+# 1. Environment variables & secrets (MUST IGNORE)
+.env
+.env.local
+.env.*.local
+*.env
+.envrc
+
+# 2. Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+venv*/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.pip-cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# 3. Jupyter / IPython
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# 4. VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# 5. PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+
+# 6. MacOS / Windows / Linux junk
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# 7. Node / JS (if you ever add frontend)
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 8. Docker
+docker-compose.override.yml
+.docker/
+
+# 9. Logs & databases
+*.log
+*.sqlite3
+*.db
+
+# 10. API keys / credentials (extra safety)
+keys/
+credentials/
+*.pem
+*.key
+*.crt
+
+# 11. Large files / models (only if you accidentally commit them)
+*.bin
+*.pth
+*.pt
+*.h5
+*.pickle
+*.pkl
+models/
+checkpoints/
+*.zip
+*.tar.gz
+*.rar
+
+# 12. Build / dist
+dist/
+build/
+*.egg-info/
+*.dist-info/
+
+# 13. Testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.pytest_cache/

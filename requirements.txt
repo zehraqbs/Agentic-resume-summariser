@@ -1,0 +1,16 @@
+# Core AI and LangChain
+langchain
+langchain-core
+langchain-groq
+groq
+
+# Web framework
+fastapi
+uvicorn
+
+# Utilities
+python-dotenv
+pydantic
+
+# Optional (for async HTTP or data manipulation)
+httpx
